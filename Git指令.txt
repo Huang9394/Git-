@@ -1,0 +1,11 @@
+pwd                         查看此时的路径
+cd 文件名/                进入此路径下的这个文件
+git init                      在此路径下创建git隐藏文件
+git status                  查看仓库状态
+git add .                   将此路径下所有的文件添加到暂停区
+git commit -m “”  附带信息地将文件提交到本地仓库
+git remote -v            查看远程仓库地址
+git remote add origin http://......   将本地仓库和网络仓库连接（origin为仓库名，master为分支）
+git push -u origin master  提交上代码
+git pull                     下拉网络仓库代码
+git reset --hard ID    将文档回档到ID的位置
